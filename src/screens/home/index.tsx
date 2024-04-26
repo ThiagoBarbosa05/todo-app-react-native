@@ -85,8 +85,6 @@ export function Home() {
     ]);
   };
 
-  console.log(tasks)
-
   const quantityTasksCompleted = tasks.filter((task) => task.isComplete).length;
   const quantityCreatedTasks = tasks.length;
 
